@@ -63,7 +63,7 @@ export default function CheckoutForm() {
         // Make sure to change this to your payment completion page
         // return_url: `https://e-commerce-five-lac.vercel.app
         // /order-success/${currentOrder.id}`,
-        return_url: `/order-success/${currentOrder.id}`,
+        return_url: `http://localhost:8080/order-success/${currentOrder.id}`,
       },
     });
 
