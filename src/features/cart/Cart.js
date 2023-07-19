@@ -45,7 +45,7 @@ export default function Cart() {
               Cart
             </h1>
             <div className="flow-root">
-              {status === 'loading' ? (
+              {/* {status === 'loading' ? (
                 <Grid
                   height="80"
                   width="80"
@@ -56,7 +56,7 @@ export default function Cart() {
                   wrapperClass=""
                   visible={true}
                 />
-              ) : null}
+              ) : null} */}
               <ul className="-my-6 divide-y divide-gray-200">
                 {items.map((item) => (
                   <li key={item.id} className="flex py-6">
